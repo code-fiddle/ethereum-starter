@@ -33,6 +33,9 @@ npx hardhat run scripts/deploy.js --network NETWORK
 
 # verify on etherscan/polygonscan/...
 npx hardhat verify --network NETWORK CONTRACT_ADDRESS
+
+# custom task: balance
+npx hardhat balance --account 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 ```
 
 ## References
