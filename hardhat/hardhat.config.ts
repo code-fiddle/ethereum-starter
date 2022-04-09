@@ -4,6 +4,7 @@
 import dotenv from "dotenv";
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-etherscan";
+import "./tasks/balance.task";
 
 dotenv.config();
 
@@ -19,6 +20,7 @@ const {
   API_URL_POLYGON_MAINNET,
   API_URL_MAINNET,
 } = process.env;
+
 module.exports = {
   solidity: "0.8.11",
   defaultNetwork: "rinkeby",
